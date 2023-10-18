@@ -1,16 +1,12 @@
-"scripts": {
-  "start": "node Node.js"
-},
-
 {
   "name": "express",
   "version": "1.0.0",
   "description": "test",
   "main": "Node.js",
   "scripts": {
+    "start": "node Node.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"
 }
-
