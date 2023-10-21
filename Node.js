@@ -11,8 +11,8 @@ app.post('/sendSMS', async (req, res) => {
     const response = await axios.post('https://api.dialog.lk/sms/send', {
       message: message,
       destinationAddresses: numbers,
-      password: "ade49a19b550a168415764f273f49fc5",
-      applicationId: "APP_064990"
+      password: "48147468c7c995754303b381f55aa826",
+      applicationId: "APP_065001"
     });
     res.json({ success: true, response: response.data });
   } catch (error) {
